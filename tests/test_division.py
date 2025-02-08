@@ -2,10 +2,16 @@ import pytest
 from app.division import divide
 
 def test_division():
-    """ Divide the numbers"""
-    assert divide(4, 4) == 1
+    """Divide with numbers """
+    # Positive division
+    assert divide(9, 9) == 1
+    # Float division
+    assert divide(5, 2) == 2.5
+    # Negative division
+    assert divide(-14, 2) == -7
+
 
 def test_divide_zero_exception():
-    """Divide by zero"""
+    """Division testing by zero"""
     with pytest.raises(ZeroDivisionError):
-        divide(2,0)
+        divide(5, 0)
