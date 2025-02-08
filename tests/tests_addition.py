@@ -1,4 +1,4 @@
-"""This is the addition test file"""
+"""Addition"""
 from app.addition import add
 
 

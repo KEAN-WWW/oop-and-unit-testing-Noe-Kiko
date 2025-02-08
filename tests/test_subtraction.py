@@ -1,4 +1,4 @@
-"""This is the subtraction test file"""
+"""Subtraction Test File"""
 from app.subtraction import subtract
 
 

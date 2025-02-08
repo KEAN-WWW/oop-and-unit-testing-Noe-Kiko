@@ -1,3 +1,4 @@
+"""Divide Test """
 import pytest
 from app.division import divide
 

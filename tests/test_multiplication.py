@@ -1,4 +1,4 @@
-"""This is the multiplication test file"""
+"""Multiplication Test File"""
 from app.multiplication import multiply
 
 
